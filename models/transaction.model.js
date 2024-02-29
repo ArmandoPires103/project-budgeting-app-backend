@@ -2,7 +2,7 @@ module.exports = [
     {
       id: 1,
       item_name: "Salary",
-      amount: 3000,
+      amount: 4000,
       date: "2022-02-28",
       from: "Employer",
       category: "Income"
@@ -10,7 +10,7 @@ module.exports = [
     {
       id: 2,
       item_name: "Groceries",
-      amount: 50,
+      amount: 300,
       date: "2022-02-27",
       from: "Grocery Store",
       category: "Food"
@@ -18,7 +18,7 @@ module.exports = [
     {
       id: 3,
       item_name: "Rent",
-      amount: 1200,
+      amount: 3200,
       date: "2022-02-01",
       from: "Landlord",
       category: "Housing"
