@@ -3,36 +3,36 @@ module.exports = [
       id: 1,
       item_name: "Salary",
       amount: 4000,
-      date: "January 28",
+      date: "01/04/2024",
       from: "Employer",
-      category: "Income",
+      spent: "Income",
       memo: "My bi-weekly check from my job at Google"
     },
     {
       id: 2,
       item_name: "Groceries",
-      amount: 300,
+      amount: -300,
       date: "Feburary 28",
       from: "Grocery Store",
-      category: "Food",
+      spent: "Food",
       memo: "Food for the month of March"
     },
     {
       id: 3,
       item_name: "Rent",
-      amount: 3200,
+      amount: -3200,
       date: "March 1",
       from: "Landlord",
-      category: "Housing",
+      spent: "Housing",
       memo: "My monthly Rent"
     },
     {
       id: 4,
       item_name: "Internet Bill",
-      amount: 60,
+      amount: -60,
       date: "March 15",
       from: "Internet Provider",
-      category: "Utilities",
+      spent: "Utilities",
       memo:"My monthly bill from Verizon Fios"
     }
   ];
