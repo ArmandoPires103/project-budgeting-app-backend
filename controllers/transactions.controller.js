@@ -8,7 +8,7 @@ let transactionsArray = require("../models/transaction.model.js")
 // GET ALL
 transactions.get("/", (req, res) => {
     // THE RESPONSE WITH ALL THE TRANSACTIONS STORED IN TRANSACTIONS ARRAY
-    res.json({ transactions: transactionsArray})
+    res.status(200).json({ transactions: transactionsArray });
 })
 // GET ONE
 transactions.get("/:id", (req,res) => {
@@ -29,7 +29,7 @@ transactions.post("/", (req, res) => {
     // ONCE THE ID IS IN THE REQUEST BODY THE SERVER ADDS THE ID TO THE DATA ARRAY
     transactionsArray.push(req.body)
     // FINALLY SERVER SENDS BACK A RESPONSE TO THE CLIENT.
-    res.json({ transactions: transactionsArray});
+    res.status(200).json({ transactions: transactionsArray });
 })
 
 // SERVER RECEIVES A UPDATE TRANSACTIONS
